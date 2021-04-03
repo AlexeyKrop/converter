@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+.converter {
+  border: 1px solid red;
+}
+.converter__block {
+  border: 7px solid green;
+}

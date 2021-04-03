@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Конвертер</title>
+  </head>
+  <body>
+    <section class="converter">
+      <div class="converter__block">
+        <h2 class="converter__title">Выберите валюту</h2>
+        <select name="surrency" class="select" class="converter__select">
+          <option value="75">Доллар</option>
+          <option value="95">Евро</option>
+        </select>
+        <label for="usd" class="converter__label">Введите валюту</label>
+        <input type="text" id="usd" />
+        <label for="rub" class="converter__label">У вас</label>
+        <input type="text" id="rub" />
+        <span>рублей</span>
+        <button id="btn">Конвертировать</button>
+      </div>
+      <div class="converter__block">
+        <h2 class="converter__title">перевод в валюту</h2>
+        <label for="inRub" class="converter__label">Введите рубли</label>
+        <input type="text" id="inRub" />
+        <label for="inUsd" class="converter__label">У вас</label>
+        <input type="text" id="inUsd" />
+        <span class="converter__text">доларов</span>
+        <button class="button">Конвертировать</button>
+      </div>
+    </section>
+    <!-- /.converter -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
